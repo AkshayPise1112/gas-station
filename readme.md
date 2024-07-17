@@ -62,7 +62,7 @@ To handle high volumes of requests and to ensure scalability and maintainability
 
 ## Design Principals
 
-#### strictly follow this design principles
+#### We have to strictly follow this design principles
 
 - #### Scalability:
 
