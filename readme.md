@@ -118,7 +118,7 @@ io.on('connection', (socket) => {
 })
 ```
 
-- when we have established the connection using socket.io then frontend will emit `longitude` and `latitude` using `socket.emit('send-location', {longitude, latitude})` method to server then we have to emit that to other connection so here we use `io.emit()` method inside `io.on`
+- when we have established the connection using socket.io then frontend will emit `longitude` and `latitude` using `socket.emit('send-location', {longitude, latitude})` method to server then we have to emit that to other connection so here we use `io.emit()` method inside `io.on()` method.
 
 ```bash
 io.on('connection', (socket) => {
